@@ -16,17 +16,12 @@ public class ParticipantController {
     @Autowired
     private Administrador admin;
 
-    @GetMapping
-    public String home(){
-        return "hello";
-    }
-
     @PostMapping("/participant/submit")
     public String addParticipant(@RequestBody Participant participant){
         admin.addParticipant(participant);
-        return "olha";
+        return "Participant data added.";
     }
-
+                  
     @GetMapping("/participant/getAll")
     public List<Participant> getAll(){
         return admin.getAll();
