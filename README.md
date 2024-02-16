@@ -1,10 +1,11 @@
 # Cubo network Full-Stack challenge:
 ## Static Preview:
 
-<div>
-  <img src="https://i.imgur.com/DaJm0qG.png" width= "681" alt="Page Layout">
-  <img src="https://i.imgur.com/uSsN66U.png" alt="Endpoints">
-<div/>
+<img src="https://i.imgur.com/DaJm0qG.png" width= "681" alt="Page Layout">
+
+## Endpoints:
+
+<img src="https://i.imgur.com/uSsN66U.png" alt="Endpoints">
 
 ### Description:
 
